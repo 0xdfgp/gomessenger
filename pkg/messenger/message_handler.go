@@ -10,7 +10,7 @@ func NewMessageHandlers() MessageHandlers {
 }
 
 // A message handlers handles messages as a Middleware. It has to be placed at the end of the chain because
-// it's not going to send to any other testMiddleware.
+// it's not going to send to any other middleware.
 type MessageHandlers struct {
 	MiddlewareImpl
 	Handlers Handlers

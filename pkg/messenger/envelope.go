@@ -8,7 +8,7 @@ func newEnvelope(id string, message interface{}) Envelope {
 	}
 }
 
-// An envelope includes the message, result and error if they exist. It responsibility of the testMiddleware to
+// An envelope includes the message, result and error if they exist. It responsibility of the middleware to
 // fill it correctly.
 type Envelope struct {
 	Id         string
