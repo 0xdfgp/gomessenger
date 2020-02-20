@@ -1,7 +1,6 @@
+# GoMessenger
 [![Build Status](https://travis-ci.com/isd4n/gomessenger.svg?branch=master)](https://travis-ci.com/isd4n/gomessenger)
 [![codecov](https://codecov.io/gh/isd4n/gomessenger/branch/master/graph/badge.svg)](https://codecov.io/gh/isd4n/gomessenger)
-
-# GoMessenger
 
 Simple implementation of a message bus to handle commands and queries easily but with the potential of middlewares.
 
