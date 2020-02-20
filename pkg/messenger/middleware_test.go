@@ -7,7 +7,7 @@ import (
 )
 
 func TestMiddlewareImpl_SetNext(t *testing.T) {
-	t.Run("It should set the next testMiddleware", func(t *testing.T) {
+	t.Run("It should set the next middleware", func(t *testing.T) {
 		m1 := middlewareTest{}
 		m2 := middlewareTest{}
 

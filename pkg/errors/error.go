@@ -2,6 +2,7 @@ package errors
 
 import "runtime"
 
+// Creates a new error that includes the stacktrace.
 func New(msg string) Base {
 	return Base{
 		Message: msg,

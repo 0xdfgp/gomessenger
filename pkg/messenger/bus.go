@@ -17,7 +17,7 @@ type Bus struct {
 	CommandHandlers MessageHandlers
 }
 
-// Adds a new testMiddleware setting it as "next" from the existing testMiddleware, if it exists.
+// Adds a new middleware setting it as "next" from the existing middleware, if it exists.
 func (b *Bus) AddMiddleware(m Middleware) {
 	if b.Middleware == nil {
 		b.Middleware = &m
